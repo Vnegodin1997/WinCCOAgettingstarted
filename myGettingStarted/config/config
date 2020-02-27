@@ -1,0 +1,7 @@
+[general]
+pvss_path = "F:/Siemens/Automation/WinCC_OA/3.16"
+proj_path = "F:/Siemens/Automation/WinCC_OA/myGettingStarted"
+proj_version = "3.16"
+langs = "en_US.utf8"
+langs = "ru_RU.utf8"
+pmonPort = 4999

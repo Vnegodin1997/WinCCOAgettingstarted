@@ -1,0 +1,4 @@
+WCCOAui      (1), 2020.02.23 19:36:37.610,	Qt,	QImage::scaled: Image is a null image
+WCCOAui      (1), 2020.02.23 19:54:29.928,	Qt,	this function is deprecated, use QScreen::grabWindow() instead. Defaulting to primary screen.
+WCCOAui      (1), 2020.02.23 19:54:53.260,	Qt,	this function is deprecated, use QScreen::grabWindow() instead. Defaulting to primary screen.
+WCCOAui      (1), 2020.02.24 10:10:43.741,	Qt,	QImage::scaled: Image is a null image

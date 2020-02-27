@@ -1,0 +1,1009 @@
+WCCILpmon    (1), 2020.02.16 11:00:50.806, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2020.02.16 11:04:29.244, SYS,  INFO,       20/pmon, Got START_ALL command from 127.0.0.1, starting the project
+WCCILpmon    (1), 2020.02.16 11:04:29.557, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ myGettingStarted -pmonIndex 1 
+WCCILpmon    (1), 2020.02.16 11:04:30.780, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 2 -num 0
+WCCILpmon    (1), 2020.02.16 11:04:31.206, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 3 -num 1
+WCCILpmon    (1), 2020.02.16 11:04:31.526, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 4 -num 2
+WCCILpmon    (1), 2020.02.16 11:04:31.819, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 5 -num 3
+WCCILpmon    (1), 2020.02.16 11:04:32.147, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 6 -num 4
+WCCILpmon    (1), 2020.02.16 11:04:32.476, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 7 -num 5
+WCCILpmon    (1), 2020.02.16 11:04:36.201, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.16 11:04:36.686, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ myGettingStarted -pmonIndex 9 
+WCCILpmon    (1), 2020.02.16 11:04:42.721, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.16 11:04:43.133, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.16 11:04:43.442, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2020.02.16 11:04:48.448, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2020.02.16 11:19:28.043, SYS,  INFO,       21/pmon, Got STOP_ALL command from 127.0.0.1, stopping the project
+WCCILpmon    (1), 2020.02.16 11:19:28.079, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.16 11:19:28.079, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.16 11:19:28.079, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2020.02.16 11:19:28.079, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2020.02.16 11:19:28.079, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2020.02.16 11:19:28.079, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2020.02.16 11:19:28.079, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.16 11:19:28.095, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.16 11:19:34.288, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.16 11:19:34.389, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.16 11:19:40.444, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.16 11:19:41.249, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2020.02.16 11:22:35.230, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2020.02.16 11:22:35.281, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2020.02.16 11:22:35.320, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2020.02.17 10:40:30.595, SYS,  INFO,        1, Manager Start, START_MODE
+WCCILpmon    (1), 2020.02.17 10:40:30.646, SYS,  SEVERE,     38/pmon, The Port 4998 could not be opened., Address already in use (10048)
+WCCILpmon    (1), 2020.02.17 10:48:37.853, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2020.02.17 10:48:41.443, SYS,  INFO,       20/pmon, Got START_ALL command from 127.0.0.1, starting the project
+WCCILpmon    (1), 2020.02.17 10:48:41.478, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ myGettingStarted -pmonIndex 1 
+WCCILpmon    (1), 2020.02.17 10:48:43.715, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 2 -num 0
+WCCILpmon    (1), 2020.02.17 10:48:44.123, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 3 -num 1
+WCCILpmon    (1), 2020.02.17 10:48:44.433, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 4 -num 2
+WCCILpmon    (1), 2020.02.17 10:48:44.742, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 5 -num 3
+WCCILpmon    (1), 2020.02.17 10:48:45.052, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 6 -num 4
+WCCILpmon    (1), 2020.02.17 10:48:45.435, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 7 -num 5
+WCCILpmon    (1), 2020.02.17 10:48:48.865, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.17 10:48:50.182, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ myGettingStarted -pmonIndex 9 
+WCCILpmon    (1), 2020.02.17 10:48:56.061, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.17 10:48:56.673, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.17 10:48:57.289, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2020.02.17 10:49:03.542, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2020.02.17 11:18:50.511, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2020.02.17 11:18:50.561, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.17 11:18:52.517, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2020.02.17 11:18:52.523, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.17 11:18:53.530, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2020.02.17 11:18:53.538, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.17 11:19:11.608, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2020.02.17 11:19:11.618, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2020.02.17 11:36:11.998, SYS,  INFO,       21/pmon, Got STOP_ALL command from 127.0.0.1, stopping the project
+WCCILpmon    (1), 2020.02.17 11:36:12.011, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.17 11:36:12.037, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.17 11:36:12.039, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2020.02.17 11:36:12.041, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2020.02.17 11:36:12.043, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2020.02.17 11:36:12.044, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2020.02.17 11:36:12.046, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.17 11:36:12.048, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.17 11:36:18.219, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.17 11:36:18.423, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.17 11:36:24.362, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.17 11:36:25.281, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2020.02.17 11:49:56.747, SYS,  INFO,       20/pmon, Got START_ALL command from 127.0.0.1, starting the project
+WCCILpmon    (1), 2020.02.17 11:49:56.940, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ myGettingStarted -pmonIndex 1 
+WCCILpmon    (1), 2020.02.17 11:49:59.974, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 2 -num 0
+WCCILpmon    (1), 2020.02.17 11:50:00.629, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 3 -num 1
+WCCILpmon    (1), 2020.02.17 11:50:01.008, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 4 -num 2
+WCCILpmon    (1), 2020.02.17 11:50:01.348, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 5 -num 3
+WCCILpmon    (1), 2020.02.17 11:50:01.655, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 6 -num 4
+WCCILpmon    (1), 2020.02.17 11:50:01.988, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 7 -num 5
+WCCILpmon    (1), 2020.02.17 11:50:05.395, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.17 11:50:06.758, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ myGettingStarted -pmonIndex 9 
+WCCILpmon    (1), 2020.02.17 11:50:12.827, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.17 11:50:13.536, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.17 11:50:14.362, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2020.02.17 11:50:22.301, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2020.02.17 12:18:18.660, SYS,  INFO,       21/pmon, Got STOP_ALL command from 127.0.0.1, stopping the project
+WCCILpmon    (1), 2020.02.17 12:18:18.726, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.17 12:18:18.893, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.17 12:18:18.894, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.17 12:18:18.902, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2020.02.17 12:18:18.904, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2020.02.17 12:18:18.906, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2020.02.17 12:18:18.908, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2020.02.17 12:18:18.920, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.17 12:18:18.923, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.17 12:18:25.323, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.17 12:18:25.532, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.17 12:18:31.693, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.17 12:18:32.300, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2020.02.17 16:48:00.713, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2020.02.17 16:48:00.813, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2020.02.17 16:48:01.029, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2020.02.18 22:39:09.743, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2020.02.18 22:39:18.588, SYS,  INFO,       20/pmon, Got START_ALL command from 127.0.0.1, starting the project
+WCCILpmon    (1), 2020.02.18 22:39:18.654, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ myGettingStarted -pmonIndex 1 
+WCCILpmon    (1), 2020.02.18 22:39:21.981, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 2 -num 0
+WCCILpmon    (1), 2020.02.18 22:39:22.390, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 3 -num 1
+WCCILpmon    (1), 2020.02.18 22:39:22.700, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 4 -num 2
+WCCILpmon    (1), 2020.02.18 22:39:23.010, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 5 -num 3
+WCCILpmon    (1), 2020.02.18 22:39:23.351, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 6 -num 4
+WCCILpmon    (1), 2020.02.18 22:39:23.674, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 7 -num 5
+WCCILpmon    (1), 2020.02.18 22:39:27.122, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.18 22:39:28.408, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ myGettingStarted -pmonIndex 9 
+WCCILpmon    (1), 2020.02.18 22:39:34.509, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.18 22:39:34.852, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.18 22:39:35.865, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2020.02.18 22:39:38.689, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2020.02.18 22:48:14.602, SYS,  INFO,       21/pmon, Got STOP_ALL command from 127.0.0.1, stopping the project
+WCCILpmon    (1), 2020.02.18 22:48:14.987, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.18 22:48:15.202, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.18 22:48:15.204, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.18 22:48:15.206, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2020.02.18 22:48:15.208, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2020.02.18 22:48:15.210, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2020.02.18 22:48:15.212, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2020.02.18 22:48:15.214, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.18 22:48:15.215, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.18 22:48:21.524, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.18 22:48:21.626, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.18 22:48:27.683, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.18 22:48:28.697, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2020.02.18 22:51:44.270, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2020.02.18 22:51:44.382, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2020.02.18 22:51:44.541, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2020.02.18 22:55:57.996, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2020.02.18 22:56:01.124, SYS,  INFO,       20/pmon, Got START_ALL command from 127.0.0.1, starting the project
+WCCILpmon    (1), 2020.02.18 22:56:02.209, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ myGettingStarted -pmonIndex 1 
+WCCILpmon    (1), 2020.02.18 22:56:04.411, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 2 -num 0
+WCCILpmon    (1), 2020.02.18 22:56:05.018, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 3 -num 1
+WCCILpmon    (1), 2020.02.18 22:56:05.326, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 4 -num 2
+WCCILpmon    (1), 2020.02.18 22:56:05.634, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 5 -num 3
+WCCILpmon    (1), 2020.02.18 22:56:05.944, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 6 -num 4
+WCCILpmon    (1), 2020.02.18 22:56:06.252, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 7 -num 5
+WCCILpmon    (1), 2020.02.18 22:56:09.655, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.18 22:56:10.941, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ myGettingStarted -pmonIndex 9 
+WCCILpmon    (1), 2020.02.18 22:56:16.964, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.18 22:56:17.615, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.18 22:56:18.068, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2020.02.18 22:56:24.111, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2020.02.18 23:20:09.393, SYS,  INFO,       21/pmon, Got STOP_ALL command from 127.0.0.1, stopping the project
+WCCILpmon    (1), 2020.02.18 23:20:09.430, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.18 23:20:09.490, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.18 23:20:09.492, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2020.02.18 23:20:09.494, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2020.02.18 23:20:09.496, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2020.02.18 23:20:09.497, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2020.02.18 23:20:09.499, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.18 23:20:09.501, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.18 23:20:15.859, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.18 23:20:15.961, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.18 23:20:21.952, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.18 23:20:22.688, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2020.02.18 23:20:34.991, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2020.02.18 23:20:34.991, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2020.02.18 23:20:34.991, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2020.02.19 10:15:57.554, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2020.02.19 10:16:06.238, SYS,  INFO,       20/pmon, Got START_ALL command from 127.0.0.1, starting the project
+WCCILpmon    (1), 2020.02.19 10:16:06.291, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ myGettingStarted -pmonIndex 1 
+WCCILpmon    (1), 2020.02.19 10:16:08.498, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 2 -num 0
+WCCILpmon    (1), 2020.02.19 10:16:09.210, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 3 -num 1
+WCCILpmon    (1), 2020.02.19 10:16:09.520, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 4 -num 2
+WCCILpmon    (1), 2020.02.19 10:16:09.831, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 5 -num 3
+WCCILpmon    (1), 2020.02.19 10:16:10.142, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 6 -num 4
+WCCILpmon    (1), 2020.02.19 10:16:10.386, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 7 -num 5
+WCCILpmon    (1), 2020.02.19 10:16:13.848, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.19 10:16:15.159, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ myGettingStarted -pmonIndex 9 
+WCCILpmon    (1), 2020.02.19 10:16:21.093, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.19 10:16:21.647, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.19 10:16:22.288, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2020.02.19 10:16:25.509, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2020.02.19 10:46:15.618, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2020.02.19 10:46:15.760, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.19 10:46:17.641, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2020.02.19 10:46:17.647, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.19 10:46:18.251, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2020.02.19 10:46:18.259, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.19 11:16:20.298, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2020.02.19 11:16:20.367, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.19 11:16:22.414, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2020.02.19 11:16:22.422, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.19 11:16:22.726, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2020.02.19 11:16:22.734, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.19 11:46:22.216, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2020.02.19 11:46:22.274, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.19 11:46:24.236, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2020.02.19 11:46:24.244, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.19 11:46:24.649, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2020.02.19 11:46:24.656, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.19 12:16:23.844, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2020.02.19 12:16:23.915, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.19 12:16:25.866, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2020.02.19 12:16:25.873, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.19 12:16:26.276, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2020.02.19 12:16:26.282, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.19 12:34:23.259, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2020.02.19 12:34:23.578, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2020.02.19 12:46:25.529, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2020.02.19 12:46:25.607, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.19 12:46:27.547, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2020.02.19 12:46:27.555, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.19 12:46:27.859, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2020.02.19 12:46:27.865, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.19 12:46:42.737, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2020.02.19 12:46:42.748, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2020.02.19 13:13:51.833, SYS,  INFO,       21/pmon, Got STOP_ALL command from 127.0.0.1, stopping the project
+WCCILpmon    (1), 2020.02.19 13:13:51.871, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.19 13:13:51.954, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.19 13:13:51.956, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2020.02.19 13:13:51.958, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2020.02.19 13:13:51.961, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2020.02.19 13:13:51.963, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2020.02.19 13:13:51.965, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.19 13:13:51.968, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.19 13:13:58.423, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.19 13:13:58.524, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.19 13:14:04.484, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.19 13:14:04.992, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2020.02.20 00:26:52.358, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2020.02.20 00:26:57.619, SYS,  INFO,       20/pmon, Got START_ALL command from 127.0.0.1, starting the project
+WCCILpmon    (1), 2020.02.20 00:26:57.693, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ myGettingStarted -pmonIndex 1 
+WCCILpmon    (1), 2020.02.20 00:27:01.198, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 2 -num 0
+WCCILpmon    (1), 2020.02.20 00:27:01.609, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 3 -num 1
+WCCILpmon    (1), 2020.02.20 00:27:02.022, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 4 -num 2
+WCCILpmon    (1), 2020.02.20 00:27:02.333, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 5 -num 3
+WCCILpmon    (1), 2020.02.20 00:27:02.644, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 6 -num 4
+WCCILpmon    (1), 2020.02.20 00:27:02.954, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 7 -num 5
+WCCILpmon    (1), 2020.02.20 00:27:06.338, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.20 00:27:07.604, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ myGettingStarted -pmonIndex 9 
+WCCILpmon    (1), 2020.02.20 00:27:13.610, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.20 00:27:14.145, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.20 00:27:14.774, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2020.02.20 00:27:17.520, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2020.02.20 00:42:43.300, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2020.02.20 00:42:43.359, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2020.02.20 00:57:07.908, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2020.02.20 00:57:07.968, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.20 00:57:09.926, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2020.02.20 00:57:09.934, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.20 00:57:10.436, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2020.02.20 00:57:10.444, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.20 00:57:39.677, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2020.02.20 00:57:39.685, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2020.02.20 00:58:22.472, SYS,  INFO,       21/pmon, Got STOP_ALL command from 127.0.0.1, stopping the project
+WCCILpmon    (1), 2020.02.20 00:58:22.474, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 00:58:22.476, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 00:58:22.478, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 00:58:22.481, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 00:58:22.483, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 00:58:22.486, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 00:58:22.489, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 00:58:22.492, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 00:58:22.494, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 00:58:28.801, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 00:58:28.906, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 00:58:35.006, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 00:58:35.638, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2020.02.20 00:58:43.616, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2020.02.20 00:58:43.616, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2020.02.20 00:58:43.616, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2020.02.20 01:05:34.023, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2020.02.20 01:05:34.332, SYS,  INFO,       20/pmon, Got START_ALL command from 127.0.0.1, starting the project
+WCCILpmon    (1), 2020.02.20 01:05:34.408, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ myGettingStarted -pmonIndex 1 
+WCCILpmon    (1), 2020.02.20 01:05:37.001, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 2 -num 0
+WCCILpmon    (1), 2020.02.20 01:05:37.816, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 3 -num 1
+WCCILpmon    (1), 2020.02.20 01:05:38.126, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 4 -num 2
+WCCILpmon    (1), 2020.02.20 01:05:38.435, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 5 -num 3
+WCCILpmon    (1), 2020.02.20 01:05:38.743, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 6 -num 4
+WCCILpmon    (1), 2020.02.20 01:05:39.058, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 7 -num 5
+WCCILpmon    (1), 2020.02.20 01:05:42.375, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.20 01:05:43.785, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ myGettingStarted -pmonIndex 9 
+WCCILpmon    (1), 2020.02.20 01:05:49.941, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.20 01:05:50.616, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.20 01:05:51.233, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2020.02.20 01:05:55.095, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2020.02.20 01:35:43.952, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2020.02.20 01:35:44.029, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.20 01:35:45.981, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2020.02.20 01:35:46.002, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.20 01:35:46.407, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2020.02.20 01:35:46.415, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.20 01:37:44.801, SYS,  INFO,       21/pmon, Got STOP_ALL command from 127.0.0.1, stopping the project
+WCCILpmon    (1), 2020.02.20 01:37:44.803, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 01:37:44.805, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 01:37:44.805, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 01:37:44.805, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 01:37:44.805, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 01:37:44.805, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 01:37:44.805, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 01:37:44.805, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 01:37:51.209, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 01:37:51.318, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 01:37:57.412, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 01:37:57.959, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2020.02.20 01:38:09.291, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2020.02.20 01:38:09.291, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2020.02.20 01:38:09.291, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2020.02.20 10:53:02.827, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2020.02.20 10:53:12.071, SYS,  INFO,       20/pmon, Got START_ALL command from 127.0.0.1, starting the project
+WCCILpmon    (1), 2020.02.20 10:53:12.090, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ myGettingStarted -pmonIndex 1 
+WCCILpmon    (1), 2020.02.20 10:53:14.605, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 2 -num 0
+WCCILpmon    (1), 2020.02.20 10:53:15.520, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 3 -num 1
+WCCILpmon    (1), 2020.02.20 10:53:15.882, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 4 -num 2
+WCCILpmon    (1), 2020.02.20 10:53:16.192, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 5 -num 3
+WCCILpmon    (1), 2020.02.20 10:53:16.503, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 6 -num 4
+WCCILpmon    (1), 2020.02.20 10:53:16.812, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 7 -num 5
+WCCILpmon    (1), 2020.02.20 10:53:20.179, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.20 10:53:21.767, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ myGettingStarted -pmonIndex 9 
+WCCILpmon    (1), 2020.02.20 10:53:27.777, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.20 10:53:28.432, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.20 10:53:28.942, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2020.02.20 10:53:31.188, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2020.02.20 11:23:22.120, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2020.02.20 11:23:22.171, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.20 11:23:24.130, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2020.02.20 11:23:24.137, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.20 11:23:24.538, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2020.02.20 11:23:24.545, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.20 11:25:07.313, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2020.02.20 11:25:07.383, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2020.02.20 11:53:24.993, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2020.02.20 11:53:25.026, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.20 11:53:27.120, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2020.02.20 11:53:27.164, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.20 11:53:27.771, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2020.02.20 11:53:27.780, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.20 12:08:46.990, SYS,  INFO,       21/pmon, Got STOP_ALL command from 127.0.0.1, stopping the project
+WCCILpmon    (1), 2020.02.20 12:08:47.048, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 12:08:47.251, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 12:08:47.253, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 12:08:47.256, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 12:08:47.258, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 12:08:47.261, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 12:08:47.263, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 12:08:47.265, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 12:08:53.468, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 12:08:53.573, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 12:08:59.626, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 12:09:00.241, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2020.02.20 12:10:10.160, SYS,  INFO,       20/pmon, Got START_ALL command from 127.0.0.1, starting the project
+WCCILpmon    (1), 2020.02.20 12:10:10.618, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ myGettingStarted -pmonIndex 1 
+WCCILpmon    (1), 2020.02.20 12:10:12.346, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 2 -num 0
+WCCILpmon    (1), 2020.02.20 12:10:12.955, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 3 -num 1
+WCCILpmon    (1), 2020.02.20 12:10:13.263, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 4 -num 2
+WCCILpmon    (1), 2020.02.20 12:10:13.527, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 5 -num 3
+WCCILpmon    (1), 2020.02.20 12:10:13.833, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 6 -num 4
+WCCILpmon    (1), 2020.02.20 12:10:14.143, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 7 -num 5
+WCCILpmon    (1), 2020.02.20 12:10:17.452, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.20 12:10:18.695, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ myGettingStarted -pmonIndex 9 
+WCCILpmon    (1), 2020.02.20 12:10:24.696, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.20 12:10:25.350, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.20 12:10:25.964, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2020.02.20 12:10:29.898, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2020.02.20 12:12:05.108, SYS,  INFO,       21/pmon, Got STOP_ALL command from 127.0.0.1, stopping the project
+WCCILpmon    (1), 2020.02.20 12:12:05.111, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 12:12:05.113, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 12:12:05.116, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 12:12:05.119, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 12:12:05.122, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 12:12:05.124, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 12:12:05.128, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 12:12:05.130, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 12:12:11.478, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 12:12:11.579, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 12:12:17.624, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 12:12:17.726, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2020.02.20 12:17:31.009, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2020.02.20 12:17:31.054, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2020.02.20 12:17:31.237, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2020.02.20 12:17:42.564, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2020.02.20 12:18:00.062, SYS,  INFO,       28/pmon, Got INS command from 127.0.0.1, inserting new manager WCCOActrl at index 13
+WCCILpmon    (1), 2020.02.20 12:18:09.716, SYS,  INFO,       20/pmon, Got START_ALL command from 127.0.0.1, starting the project
+WCCILpmon    (1), 2020.02.20 12:18:09.723, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ myGettingStarted -pmonIndex 1 
+WCCILpmon    (1), 2020.02.20 12:18:11.274, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 2 -num 0
+WCCILpmon    (1), 2020.02.20 12:18:11.784, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 3 -num 1
+WCCILpmon    (1), 2020.02.20 12:18:12.094, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 4 -num 2
+WCCILpmon    (1), 2020.02.20 12:18:12.402, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 5 -num 3
+WCCILpmon    (1), 2020.02.20 12:18:12.728, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 6 -num 4
+WCCILpmon    (1), 2020.02.20 12:18:13.044, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 7 -num 5
+WCCILpmon    (1), 2020.02.20 12:18:16.333, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.20 12:18:17.980, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ myGettingStarted -pmonIndex 9 
+WCCILpmon    (1), 2020.02.20 12:18:23.935, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.20 12:18:24.690, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.20 12:18:25.316, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2020.02.20 12:18:28.547, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 simDevices.ctl
+WCCILpmon    (1), 2020.02.20 12:18:28.852, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2020.02.20 12:48:18.285, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2020.02.20 12:48:18.318, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.20 12:48:20.510, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2020.02.20 12:48:20.516, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.20 12:48:21.020, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2020.02.20 12:48:21.026, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.20 12:48:21.330, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2020.02.20 12:48:21.339, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 simDevices.ctl
+WCCILpmon    (1), 2020.02.20 13:18:21.994, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2020.02.20 13:18:22.087, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.20 13:18:24.015, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2020.02.20 13:18:24.024, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.20 13:18:24.529, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2020.02.20 13:18:24.537, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.20 13:18:24.741, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2020.02.20 13:18:24.750, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 simDevices.ctl
+WCCILpmon    (1), 2020.02.20 13:48:23.919, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2020.02.20 13:48:24.000, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.20 13:48:25.938, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2020.02.20 13:48:25.944, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.20 13:48:26.450, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2020.02.20 13:48:26.462, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.20 13:48:26.850, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2020.02.20 13:48:26.857, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 simDevices.ctl
+WCCILpmon    (1), 2020.02.20 13:48:50.073, SYS,  INFO,       21/pmon, Got STOP_ALL command from 127.0.0.1, stopping the project
+WCCILpmon    (1), 2020.02.20 13:48:50.076, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 13:48:50.077, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 13:48:50.080, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 13:48:50.083, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 13:48:50.086, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 13:48:50.094, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 13:48:50.096, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 13:48:50.099, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 13:48:50.103, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 13:48:56.490, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 13:48:56.693, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 13:49:02.662, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.20 13:49:02.965, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2020.02.20 13:53:34.161, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2020.02.20 13:53:34.197, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2020.02.20 13:53:34.405, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2020.02.22 12:29:59.757, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2020.02.22 12:30:02.060, SYS,  INFO,       20/pmon, Got START_ALL command from 127.0.0.1, starting the project
+WCCILpmon    (1), 2020.02.22 12:30:02.343, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ myGettingStarted -pmonIndex 1 
+WCCILpmon    (1), 2020.02.22 12:30:07.072, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 2 -num 0
+WCCILpmon    (1), 2020.02.22 12:30:07.583, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 3 -num 1
+WCCILpmon    (1), 2020.02.22 12:30:07.890, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 4 -num 2
+WCCILpmon    (1), 2020.02.22 12:30:08.199, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 5 -num 3
+WCCILpmon    (1), 2020.02.22 12:30:08.508, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 6 -num 4
+WCCILpmon    (1), 2020.02.22 12:30:08.818, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 7 -num 5
+WCCILpmon    (1), 2020.02.22 12:30:12.234, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.22 12:30:14.074, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ myGettingStarted -pmonIndex 9 
+WCCILpmon    (1), 2020.02.22 12:30:20.237, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.22 12:30:20.726, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.22 12:30:21.687, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2020.02.22 12:30:27.039, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 simDevices.ctl
+WCCILpmon    (1), 2020.02.22 12:30:27.344, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2020.02.22 13:00:14.357, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2020.02.22 13:00:14.400, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.22 13:00:16.276, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2020.02.22 13:00:16.309, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.22 13:00:16.513, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2020.02.22 13:00:16.521, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 simDevices.ctl
+WCCILpmon    (1), 2020.02.22 13:00:17.426, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2020.02.22 13:00:17.433, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.22 13:00:26.127, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2020.02.22 13:00:26.136, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2020.02.22 13:30:16.290, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2020.02.22 13:30:16.373, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.22 13:30:18.414, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2020.02.22 13:30:18.423, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.22 13:30:19.024, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2020.02.22 13:30:19.034, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.22 13:30:19.238, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2020.02.22 13:30:19.249, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 simDevices.ctl
+WCCILpmon    (1), 2020.02.22 14:00:18.372, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2020.02.22 14:00:18.412, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.22 14:00:20.438, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2020.02.22 14:00:20.456, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.22 14:00:21.060, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2020.02.22 14:00:21.067, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.22 14:00:21.316, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2020.02.22 14:00:21.323, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 simDevices.ctl
+WCCILpmon    (1), 2020.02.22 14:30:20.122, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2020.02.22 14:30:20.187, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.22 14:30:22.144, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2020.02.22 14:30:22.172, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.22 14:30:22.678, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2020.02.22 14:30:22.686, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.22 14:30:22.889, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2020.02.22 14:30:22.898, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 simDevices.ctl
+WCCILpmon    (1), 2020.02.22 15:00:22.720, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2020.02.22 15:00:22.811, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.22 15:00:24.844, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2020.02.22 15:00:24.855, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.22 15:00:25.360, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2020.02.22 15:00:25.367, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.22 15:00:25.570, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2020.02.22 15:00:25.576, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 simDevices.ctl
+WCCILpmon    (1), 2020.02.22 15:30:24.597, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2020.02.22 15:30:24.660, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.22 15:30:26.692, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2020.02.22 15:30:26.739, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.22 15:30:27.404, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2020.02.22 15:30:27.412, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.22 15:30:27.616, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2020.02.22 15:30:27.626, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 simDevices.ctl
+WCCILpmon    (1), 2020.02.22 16:00:26.648, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2020.02.22 16:00:26.698, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.22 16:00:28.723, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2020.02.22 16:00:28.723, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.22 16:00:29.326, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2020.02.22 16:00:29.341, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.22 16:00:29.644, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2020.02.22 16:00:29.653, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 simDevices.ctl
+WCCILpmon    (1), 2020.02.22 16:30:29.551, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2020.02.22 16:30:29.614, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.22 16:30:31.592, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2020.02.22 16:30:31.592, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.22 16:30:32.206, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2020.02.22 16:30:32.217, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.22 16:30:32.622, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2020.02.22 16:30:32.631, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 simDevices.ctl
+WCCILpmon    (1), 2020.02.22 17:00:31.175, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2020.02.22 17:00:31.229, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.22 17:00:33.279, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2020.02.22 17:00:33.287, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.22 17:00:33.791, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2020.02.22 17:00:33.800, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.22 17:00:33.986, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2020.02.22 17:00:33.996, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 simDevices.ctl
+WCCILpmon    (1), 2020.02.22 17:30:32.734, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2020.02.22 17:30:32.790, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.22 17:30:34.842, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2020.02.22 17:30:34.859, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.22 17:30:35.452, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2020.02.22 17:30:35.461, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.22 17:30:35.665, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2020.02.22 17:30:35.674, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 simDevices.ctl
+WCCILpmon    (1), 2020.02.22 18:00:34.440, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2020.02.22 18:00:34.487, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.22 18:00:36.528, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2020.02.22 18:00:36.559, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.22 18:00:37.060, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2020.02.22 18:00:37.060, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.22 18:00:37.261, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2020.02.22 18:00:37.270, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 simDevices.ctl
+WCCILpmon    (1), 2020.02.22 18:30:36.425, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2020.02.22 18:30:36.473, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.22 18:30:38.516, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2020.02.22 18:30:38.532, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.22 18:30:39.227, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2020.02.22 18:30:39.240, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.22 18:30:39.544, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2020.02.22 18:30:39.559, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 simDevices.ctl
+WCCILpmon    (1), 2020.02.22 18:39:53.115, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2020.02.22 18:39:53.192, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2020.02.22 19:00:40.836, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2020.02.22 19:00:40.932, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.22 19:00:42.961, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2020.02.22 19:00:42.970, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.22 19:00:43.580, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2020.02.22 19:00:43.604, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.22 19:00:43.909, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2020.02.22 19:00:43.918, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 simDevices.ctl
+WCCILpmon    (1), 2020.02.22 19:30:42.712, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2020.02.22 19:30:42.766, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.22 19:30:44.791, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2020.02.22 19:30:44.831, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.22 19:30:45.291, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2020.02.22 19:30:45.301, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.22 19:30:45.531, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2020.02.22 19:30:45.541, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 simDevices.ctl
+WCCILpmon    (1), 2020.02.22 20:00:44.654, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2020.02.22 20:00:44.704, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.22 20:00:46.675, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2020.02.22 20:00:46.690, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.22 20:00:47.283, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2020.02.22 20:00:47.293, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.22 20:00:47.496, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2020.02.22 20:00:47.507, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 simDevices.ctl
+WCCILpmon    (1), 2020.02.22 20:30:46.669, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2020.02.22 20:30:46.721, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.22 20:30:48.788, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2020.02.22 20:30:48.797, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.22 20:30:49.404, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2020.02.22 20:30:49.414, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.22 20:30:49.618, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2020.02.22 20:30:49.628, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 simDevices.ctl
+WCCILpmon    (1), 2020.02.22 21:00:48.808, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2020.02.22 21:00:48.864, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.22 21:00:50.929, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2020.02.22 21:00:50.939, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.22 21:00:51.450, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2020.02.22 21:00:51.459, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.22 21:00:51.662, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2020.02.22 21:00:51.672, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 simDevices.ctl
+WCCILpmon    (1), 2020.02.22 21:30:50.527, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2020.02.22 21:30:50.581, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.22 21:30:52.549, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2020.02.22 21:30:52.558, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 simDevices.ctl
+WCCILpmon    (1), 2020.02.22 21:30:53.156, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2020.02.22 21:30:53.166, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.22 21:30:53.370, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2020.02.22 21:30:53.384, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.23 18:42:34.294, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2020.02.23 18:42:37.222, SYS,  INFO,       20/pmon, Got START_ALL command from 127.0.0.1, starting the project
+WCCILpmon    (1), 2020.02.23 18:42:37.313, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ myGettingStarted -pmonIndex 1 
+WCCILpmon    (1), 2020.02.23 18:43:29.100, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 2 -num 0
+WCCILpmon    (1), 2020.02.23 18:43:29.565, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 3 -num 1
+WCCILpmon    (1), 2020.02.23 18:43:29.873, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 4 -num 2
+WCCILpmon    (1), 2020.02.23 18:43:30.181, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 5 -num 3
+WCCILpmon    (1), 2020.02.23 18:43:30.590, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 6 -num 4
+WCCILpmon    (1), 2020.02.23 18:43:30.899, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 7 -num 5
+WCCILpmon    (1), 2020.02.23 18:43:34.254, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.23 18:43:35.417, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ myGettingStarted -pmonIndex 9 
+WCCILpmon    (1), 2020.02.23 18:43:41.614, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.23 18:43:42.191, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.23 18:43:42.906, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2020.02.23 18:43:48.550, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 simDevices.ctl
+WCCILpmon    (1), 2020.02.23 18:43:48.854, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2020.02.23 19:13:35.630, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2020.02.23 19:13:35.676, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.23 19:13:37.530, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2020.02.23 19:13:37.540, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 simDevices.ctl
+WCCILpmon    (1), 2020.02.23 19:13:38.342, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2020.02.23 19:13:38.348, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.23 19:13:38.551, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2020.02.23 19:13:38.561, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.23 19:18:43.123, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2020.02.23 19:18:43.205, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2020.02.23 19:27:04.995, SYS,  INFO,       21/pmon, Got STOP_ALL command from 127.0.0.1, stopping the project
+WCCILpmon    (1), 2020.02.23 19:27:05.014, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.23 19:27:05.098, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.23 19:27:05.101, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2020.02.23 19:27:05.103, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2020.02.23 19:27:05.105, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2020.02.23 19:27:05.107, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2020.02.23 19:27:05.108, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2020.02.23 19:27:05.110, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.23 19:27:05.113, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.23 19:27:11.328, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.23 19:27:11.431, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.23 19:27:17.486, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.23 19:27:17.889, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2020.02.23 19:27:35.252, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2020.02.23 19:27:35.253, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2020.02.23 19:27:35.256, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2020.02.23 19:31:07.562, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2020.02.23 19:31:11.166, SYS,  INFO,       20/pmon, Got START_ALL command from 127.0.0.1, starting the project
+WCCILpmon    (1), 2020.02.23 19:31:12.212, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ myGettingStarted -pmonIndex 1 
+WCCILpmon    (1), 2020.02.23 19:31:15.147, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 2 -num 0
+WCCILpmon    (1), 2020.02.23 19:31:15.455, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 3 -num 1
+WCCILpmon    (1), 2020.02.23 19:31:15.763, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 4 -num 2
+WCCILpmon    (1), 2020.02.23 19:31:16.071, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 5 -num 3
+WCCILpmon    (1), 2020.02.23 19:31:16.362, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 6 -num 4
+WCCILpmon    (1), 2020.02.23 19:31:16.671, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 7 -num 5
+WCCILpmon    (1), 2020.02.23 19:31:19.990, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.23 19:31:21.007, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ myGettingStarted -pmonIndex 9 
+WCCILpmon    (1), 2020.02.23 19:31:26.838, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.23 19:31:27.749, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.23 19:31:28.261, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2020.02.23 19:31:35.010, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 simDevices.ctl
+WCCILpmon    (1), 2020.02.23 19:31:35.315, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2020.02.23 20:01:21.227, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2020.02.23 20:01:21.284, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.23 20:01:23.249, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2020.02.23 20:01:23.256, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.23 20:01:24.369, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2020.02.23 20:01:24.376, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.23 20:01:24.579, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2020.02.23 20:01:24.585, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 simDevices.ctl
+WCCILpmon    (1), 2020.02.23 20:01:31.200, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2020.02.23 20:01:31.208, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2020.02.23 20:06:10.335, SYS,  INFO,       21/pmon, Got STOP_ALL command from 127.0.0.1, stopping the project
+WCCILpmon    (1), 2020.02.23 20:06:10.377, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2020.02.23 20:06:10.480, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.23 20:06:10.483, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.23 20:06:10.486, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2020.02.23 20:06:10.489, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2020.02.23 20:06:10.491, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2020.02.23 20:06:10.494, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2020.02.23 20:06:10.497, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.23 20:06:10.499, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.23 20:06:16.734, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.23 20:06:16.837, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.23 20:06:22.793, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.23 20:06:22.895, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2020.02.23 20:06:25.752, SYS,  INFO,       20/pmon, Got START_ALL command from 127.0.0.1, starting the project
+WCCILpmon    (1), 2020.02.23 20:06:25.761, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ myGettingStarted -pmonIndex 1 
+WCCILpmon    (1), 2020.02.23 20:06:27.257, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 2 -num 0
+WCCILpmon    (1), 2020.02.23 20:06:27.565, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 3 -num 1
+WCCILpmon    (1), 2020.02.23 20:06:27.855, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 4 -num 2
+WCCILpmon    (1), 2020.02.23 20:06:28.164, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 5 -num 3
+WCCILpmon    (1), 2020.02.23 20:06:28.474, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 6 -num 4
+WCCILpmon    (1), 2020.02.23 20:06:28.784, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 7 -num 5
+WCCILpmon    (1), 2020.02.23 20:06:32.101, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.23 20:06:33.419, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ myGettingStarted -pmonIndex 9 
+WCCILpmon    (1), 2020.02.23 20:06:39.484, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.23 20:06:40.201, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.23 20:06:40.737, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2020.02.23 20:06:44.444, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 simDevices.ctl
+WCCILpmon    (1), 2020.02.23 20:06:44.748, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2020.02.23 20:28:00.419, SYS,  INFO,       21/pmon, Got STOP_ALL command from 127.0.0.1, stopping the project
+WCCILpmon    (1), 2020.02.23 20:28:00.464, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2020.02.23 20:28:00.576, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.23 20:28:00.578, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.23 20:28:00.580, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2020.02.23 20:28:00.582, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2020.02.23 20:28:00.583, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2020.02.23 20:28:00.585, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2020.02.23 20:28:00.587, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.23 20:28:00.589, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.23 20:28:06.873, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.23 20:28:06.975, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.23 20:28:13.036, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.23 20:28:13.139, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2020.02.24 01:51:32.525, SYS,  INFO,       20/pmon, Got START_ALL command from 127.0.0.1, starting the project
+WCCILpmon    (1), 2020.02.24 01:51:32.785, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ myGettingStarted -pmonIndex 1 
+WCCILpmon    (1), 2020.02.24 01:51:36.194, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 2 -num 0
+WCCILpmon    (1), 2020.02.24 01:51:36.803, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 3 -num 1
+WCCILpmon    (1), 2020.02.24 01:51:37.113, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 4 -num 2
+WCCILpmon    (1), 2020.02.24 01:51:37.387, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 5 -num 3
+WCCILpmon    (1), 2020.02.24 01:51:37.695, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 6 -num 4
+WCCILpmon    (1), 2020.02.24 01:51:38.004, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 7 -num 5
+WCCILpmon    (1), 2020.02.24 01:51:41.472, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.24 01:51:43.000, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ myGettingStarted -pmonIndex 9 
+WCCILpmon    (1), 2020.02.24 01:51:49.016, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.24 01:51:49.849, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.24 01:51:50.462, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2020.02.24 01:51:58.907, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 simDevices.ctl
+WCCILpmon    (1), 2020.02.24 01:51:59.212, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2020.02.24 02:21:43.377, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2020.02.24 02:21:43.439, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.24 02:21:45.197, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2020.02.24 02:21:45.204, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.24 02:21:45.710, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2020.02.24 02:21:45.718, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 simDevices.ctl
+WCCILpmon    (1), 2020.02.24 02:21:46.526, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2020.02.24 02:21:46.535, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.24 02:21:55.902, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2020.02.24 02:21:55.910, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2020.02.24 02:37:08.174, SYS,  INFO,       21/pmon, Got STOP_ALL command from 127.0.0.1, stopping the project
+WCCILpmon    (1), 2020.02.24 02:37:08.234, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 02:37:08.337, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 02:37:08.337, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 02:37:08.337, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 02:37:08.352, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 02:37:08.352, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 02:37:08.352, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 02:37:08.352, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 02:37:08.352, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 02:37:14.628, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 02:37:14.847, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 02:37:20.814, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 02:37:21.579, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2020.02.24 10:04:49.379, SYS,  INFO,       20/pmon, Got START_ALL command from 127.0.0.1, starting the project
+WCCILpmon    (1), 2020.02.24 10:04:49.910, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ myGettingStarted -pmonIndex 1 
+WCCILpmon    (1), 2020.02.24 10:04:52.740, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 2 -num 0
+WCCILpmon    (1), 2020.02.24 10:04:53.395, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 3 -num 1
+WCCILpmon    (1), 2020.02.24 10:04:53.723, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 4 -num 2
+WCCILpmon    (1), 2020.02.24 10:04:54.051, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 5 -num 3
+WCCILpmon    (1), 2020.02.24 10:04:54.379, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 6 -num 4
+WCCILpmon    (1), 2020.02.24 10:04:54.645, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 7 -num 5
+WCCILpmon    (1), 2020.02.24 10:04:58.012, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.24 10:04:59.632, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ myGettingStarted -pmonIndex 9 
+WCCILpmon    (1), 2020.02.24 10:05:05.798, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.24 10:05:06.650, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.24 10:05:07.259, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2020.02.24 10:05:13.497, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 simDevices.ctl
+WCCILpmon    (1), 2020.02.24 10:05:13.801, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2020.02.24 10:30:51.385, SYS,  INFO,       21/pmon, Got STOP_ALL command from 127.0.0.1, stopping the project
+WCCILpmon    (1), 2020.02.24 10:30:51.497, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 10:30:51.619, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 10:30:51.621, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 10:30:51.624, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 10:30:51.626, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 10:30:51.629, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 10:30:51.631, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 10:30:51.633, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 10:30:51.635, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 10:30:51.635, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 10:30:57.913, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 10:30:58.013, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 10:31:04.173, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 10:31:05.033, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2020.02.24 10:31:39.742, SYS,  INFO,       29/pmon, Got PROP_PUT command from 127.0.0.1, changing manager WCCOActrl(1) at index 13
+WCCILpmon    (1), 2020.02.24 10:31:42.254, SYS,  INFO,       20/pmon, Got START_ALL command from 127.0.0.1, starting the project
+WCCILpmon    (1), 2020.02.24 10:31:42.267, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ myGettingStarted -pmonIndex 1 
+WCCILpmon    (1), 2020.02.24 10:31:44.437, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 2 -num 0
+WCCILpmon    (1), 2020.02.24 10:31:44.892, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 3 -num 1
+WCCILpmon    (1), 2020.02.24 10:31:45.137, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 4 -num 2
+WCCILpmon    (1), 2020.02.24 10:31:45.377, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 5 -num 3
+WCCILpmon    (1), 2020.02.24 10:31:45.662, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 6 -num 4
+WCCILpmon    (1), 2020.02.24 10:31:45.907, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 7 -num 5
+WCCILpmon    (1), 2020.02.24 10:31:49.222, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.24 10:31:50.552, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ myGettingStarted -pmonIndex 9 
+WCCILpmon    (1), 2020.02.24 10:31:56.462, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.24 10:31:57.152, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.24 10:31:57.652, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2020.02.24 10:32:01.632, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 -f sim.lst
+WCCILpmon    (1), 2020.02.24 10:32:01.915, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2020.02.24 10:47:08.450, SYS,  INFO,       21/pmon, Got STOP_ALL command from 127.0.0.1, stopping the project
+WCCILpmon    (1), 2020.02.24 10:47:08.504, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 10:47:08.624, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 10:47:08.624, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 10:47:08.624, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 10:47:08.634, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 10:47:08.634, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 10:47:08.634, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 10:47:08.634, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 10:47:08.634, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 10:47:15.759, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 10:47:15.962, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 10:47:22.054, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 10:47:22.814, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2020.02.24 10:59:21.772, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2020.02.24 10:59:21.897, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2020.02.24 10:59:21.968, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2020.02.24 11:19:12.125, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2020.02.24 11:19:14.696, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2020.02.24 11:19:14.714, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2020.02.24 11:19:14.716, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2020.02.24 11:26:38.170, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2020.02.24 11:26:39.541, SYS,  INFO,       20/pmon, Got START_ALL command from 127.0.0.1, starting the project
+WCCILpmon    (1), 2020.02.24 11:26:40.594, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ myGettingStarted -pmonIndex 1 
+WCCILpmon    (1), 2020.02.24 11:26:42.230, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 2 -num 0
+WCCILpmon    (1), 2020.02.24 11:26:42.925, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 3 -num 1
+WCCILpmon    (1), 2020.02.24 11:26:43.236, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 4 -num 2
+WCCILpmon    (1), 2020.02.24 11:26:43.547, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 5 -num 3
+WCCILpmon    (1), 2020.02.24 11:26:43.857, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 6 -num 4
+WCCILpmon    (1), 2020.02.24 11:26:44.167, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 7 -num 5
+WCCILpmon    (1), 2020.02.24 11:26:47.610, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.24 11:26:49.008, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ myGettingStarted -pmonIndex 9 
+WCCILpmon    (1), 2020.02.24 11:26:55.119, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.24 11:26:55.786, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.24 11:26:56.601, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2020.02.24 11:27:00.988, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 -f sim.lst
+WCCILpmon    (1), 2020.02.24 11:27:01.289, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2020.02.24 11:32:34.238, SYS,  INFO,       21/pmon, Got STOP_ALL command from 127.0.0.1, stopping the project
+WCCILpmon    (1), 2020.02.24 11:32:34.274, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 11:32:34.405, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 11:32:34.405, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 11:32:34.405, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 11:32:34.405, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 11:32:34.405, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 11:32:34.405, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 11:32:34.420, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 11:32:34.420, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 11:32:40.704, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 11:32:40.806, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 11:32:46.888, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 11:32:47.305, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2020.02.24 11:32:51.261, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2020.02.24 11:32:51.261, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2020.02.24 11:32:51.261, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2020.02.24 11:33:06.982, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2020.02.24 11:33:13.965, SYS,  INFO,       29/pmon, Got PROP_PUT command from 127.0.0.1, changing manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2020.02.24 11:33:18.824, SYS,  INFO,       20/pmon, Got START_ALL command from 127.0.0.1, starting the project
+WCCILpmon    (1), 2020.02.24 11:33:18.833, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ myGettingStarted -pmonIndex 1 
+WCCILpmon    (1), 2020.02.24 11:33:20.677, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 2 -num 0
+WCCILpmon    (1), 2020.02.24 11:33:21.100, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 3 -num 1
+WCCILpmon    (1), 2020.02.24 11:33:21.401, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 4 -num 2
+WCCILpmon    (1), 2020.02.24 11:33:21.702, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 5 -num 3
+WCCILpmon    (1), 2020.02.24 11:33:22.003, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 6 -num 4
+WCCILpmon    (1), 2020.02.24 11:33:22.304, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 7 -num 5
+WCCILpmon    (1), 2020.02.24 11:33:25.528, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.24 11:33:26.862, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ myGettingStarted -pmonIndex 9 
+WCCILpmon    (1), 2020.02.24 11:33:32.693, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.24 11:33:33.395, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.24 11:33:33.896, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 12 -m gedi -user root:
+WCCILpmon    (1), 2020.02.24 11:33:35.408, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 -f sim.lst
+WCCILpmon    (1), 2020.02.24 11:33:35.713, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2020.02.24 11:33:49.614, SYS,  INFO,       21/pmon, Got STOP_ALL command from 127.0.0.1, stopping the project
+WCCILpmon    (1), 2020.02.24 11:33:49.616, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 11:33:49.616, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 11:33:49.616, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 11:33:49.623, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 11:33:49.623, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 11:33:49.623, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 11:33:49.623, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 11:33:49.623, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 11:33:49.623, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 11:33:55.756, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 11:33:55.856, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 11:33:58.880, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.24 11:33:59.798, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2020.02.24 12:42:08.559, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2020.02.24 12:42:08.659, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2020.02.24 12:42:08.789, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2020.02.26 11:06:43.788, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2020.02.26 11:07:07.317, SYS,  INFO,       20/pmon, Got START_ALL command from 127.0.0.1, starting the project
+WCCILpmon    (1), 2020.02.26 11:07:07.435, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ myGettingStarted -pmonIndex 1 
+WCCILpmon    (1), 2020.02.26 11:07:11.633, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 2 -num 0
+WCCILpmon    (1), 2020.02.26 11:07:12.072, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 3 -num 1
+WCCILpmon    (1), 2020.02.26 11:07:12.383, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 4 -num 2
+WCCILpmon    (1), 2020.02.26 11:07:12.695, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 5 -num 3
+WCCILpmon    (1), 2020.02.26 11:07:13.004, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 6 -num 4
+WCCILpmon    (1), 2020.02.26 11:07:13.313, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 7 -num 5
+WCCILpmon    (1), 2020.02.26 11:07:16.791, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.26 11:07:17.946, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ myGettingStarted -pmonIndex 9 
+WCCILpmon    (1), 2020.02.26 11:07:24.036, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.26 11:07:24.400, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.26 11:07:25.450, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 12 -m gedi -user root:
+WCCILpmon    (1), 2020.02.26 11:07:26.912, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 -f sim.lst
+WCCILpmon    (1), 2020.02.26 11:07:27.217, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2020.02.26 11:26:47.562, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2020.02.26 11:26:47.646, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 12 -m gedi -user root:
+WCCILpmon    (1), 2020.02.26 11:37:18.142, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2020.02.26 11:37:18.188, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.26 11:37:20.162, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2020.02.26 11:37:20.170, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.26 11:37:20.473, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2020.02.26 11:37:20.483, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 -f sim.lst
+WCCILpmon    (1), 2020.02.26 11:37:21.479, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2020.02.26 11:37:21.487, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.26 11:45:12.629, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2020.02.26 11:45:12.672, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 12 -m gedi -user root:
+WCCILpmon    (1), 2020.02.26 11:52:57.118, SYS,  INFO,       21/pmon, Got STOP_ALL command from 127.0.0.1, stopping the project
+WCCILpmon    (1), 2020.02.26 11:52:57.177, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.26 11:52:57.346, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.26 11:52:57.349, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.26 11:52:57.352, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2020.02.26 11:52:57.355, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2020.02.26 11:52:57.357, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2020.02.26 11:52:57.359, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2020.02.26 11:52:57.362, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2020.02.26 11:52:57.364, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.26 11:52:57.367, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.26 11:53:03.771, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.26 11:53:03.874, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.26 11:53:09.827, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.26 11:53:09.929, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2020.02.26 11:56:15.821, SYS,  INFO,       28/pmon, Got INS command from 127.0.0.1, inserting new manager WCCOAui at index 14
+WCCILpmon    (1), 2020.02.26 11:56:18.047, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAui(1) at index 14
+WCCILpmon    (1), 2020.02.26 11:56:18.057, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 14 -p vision/startup.pnl -iconBar -menuBar
+WCCILpmon    (1), 2020.02.26 11:59:06.408, SYS,  INFO,       20/pmon, Got START_ALL command from 127.0.0.1, starting the project
+WCCILpmon    (1), 2020.02.26 11:59:06.468, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ myGettingStarted -pmonIndex 1 
+WCCILpmon    (1), 2020.02.26 11:59:08.232, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 2 -num 0
+WCCILpmon    (1), 2020.02.26 11:59:08.944, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 3 -num 1
+WCCILpmon    (1), 2020.02.26 11:59:09.254, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 4 -num 2
+WCCILpmon    (1), 2020.02.26 11:59:09.565, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 5 -num 3
+WCCILpmon    (1), 2020.02.26 11:59:09.829, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 6 -num 4
+WCCILpmon    (1), 2020.02.26 11:59:10.138, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 7 -num 5
+WCCILpmon    (1), 2020.02.26 11:59:13.509, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.26 11:59:14.794, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ myGettingStarted -pmonIndex 9 
+WCCILpmon    (1), 2020.02.26 11:59:20.889, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.26 11:59:21.765, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.26 11:59:22.379, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 12 -m gedi -user root:
+WCCILpmon    (1), 2020.02.26 11:59:23.598, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 -f sim.lst
+WCCILpmon    (1), 2020.02.26 11:59:23.898, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 14 -p vision/startup.pnl -iconBar -menuBar
+WCCILpmon    (1), 2020.02.26 11:59:25.211, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2020.02.26 12:00:48.283, SYS,  INFO,       24/pmon, Got START command from 127.0.0.1, starting the manager WCCOAui(2) at index 14
+WCCILpmon    (1), 2020.02.26 12:00:48.325, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 14 -p vision/startup.pnl -iconBar -menuBar
+WCCILpmon    (1), 2020.02.26 12:29:14.941, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2020.02.26 12:29:14.998, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.26 12:29:17.060, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2020.02.26 12:29:17.067, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.26 12:29:17.871, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2020.02.26 12:29:17.879, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.26 12:29:18.085, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2020.02.26 12:29:18.098, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 -f sim.lst
+WCCILpmon    (1), 2020.02.26 12:51:28.966, SYS,  INFO,       21/pmon, Got STOP_ALL command from 127.0.0.1, stopping the project
+WCCILpmon    (1), 2020.02.26 12:51:28.990, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2020.02.26 12:51:29.180, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.26 12:51:29.180, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.26 12:51:29.180, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2020.02.26 12:51:29.180, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2020.02.26 12:51:29.192, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2020.02.26 12:51:29.195, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2020.02.26 12:51:29.197, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.26 12:51:29.199, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.26 12:51:35.572, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.26 12:51:35.779, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.26 12:51:41.726, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.26 12:51:42.030, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2020.02.26 14:35:18.148, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2020.02.26 14:35:18.315, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2020.02.26 14:35:18.442, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2020.02.27 13:22:51.073, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2020.02.27 13:22:54.266, SYS,  INFO,       20/pmon, Got START_ALL command from 127.0.0.1, starting the project
+WCCILpmon    (1), 2020.02.27 13:22:54.556, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ myGettingStarted -pmonIndex 1 
+WCCILpmon    (1), 2020.02.27 13:23:19.380, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 2 -num 0
+WCCILpmon    (1), 2020.02.27 13:23:21.187, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 3 -num 1
+WCCILpmon    (1), 2020.02.27 13:23:21.497, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 4 -num 2
+WCCILpmon    (1), 2020.02.27 13:23:21.829, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 5 -num 3
+WCCILpmon    (1), 2020.02.27 13:23:22.139, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 6 -num 4
+WCCILpmon    (1), 2020.02.27 13:23:22.524, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ myGettingStarted -pmonIndex 7 -num 5
+WCCILpmon    (1), 2020.02.27 13:23:28.081, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ myGettingStarted -pmonIndex 8 
+WCCILpmon    (1), 2020.02.27 13:23:33.526, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ myGettingStarted -pmonIndex 9 
+WCCILpmon    (1), 2020.02.27 13:23:42.934, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2020.02.27 13:23:44.196, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ myGettingStarted -pmonIndex 11 
+WCCILpmon    (1), 2020.02.27 13:23:46.403, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 12 -m gedi -user root:
+WCCILpmon    (1), 2020.02.27 13:23:51.170, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ myGettingStarted -pmonIndex 13 -f sim.lst
+WCCILpmon    (1), 2020.02.27 13:23:51.589, SYS,  INFO,        1, Manager Start, F:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ myGettingStarted -pmonIndex 14 -p vision/startup.pnl -iconBar -menuBar
+WCCILpmon    (1), 2020.02.27 13:23:55.312, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2020.02.27 13:24:27.514, SYS,  WARNING,    36/pmon, Blocking Manager WCCOAui(1) detected. No heartbeat since 30 seconds.
+WCCILpmon    (1), 2020.02.27 13:24:31.364, SYS,  WARNING,    39/pmon, Manager WCCOAui(1) is no longer blocking.
+WCCILpmon    (1), 2020.02.27 13:30:20.609, SYS,  INFO,       21/pmon, Got STOP_ALL command from 127.0.0.1, stopping the project
+WCCILpmon    (1), 2020.02.27 13:30:20.674, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2020.02.27 13:30:20.862, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.27 13:30:20.865, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.27 13:30:20.868, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.27 13:30:20.870, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2020.02.27 13:30:20.872, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2020.02.27 13:30:20.874, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2020.02.27 13:30:20.876, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2020.02.27 13:30:20.880, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.27 13:30:20.882, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.27 13:30:27.317, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.27 13:30:27.423, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2020.02.27 13:30:33.489, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2020.02.27 13:30:33.895, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2020.02.27 13:31:55.532, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2020.02.27 13:31:55.534, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2020.02.27 13:31:55.536, SYS,  INFO,        2, Manager Stop

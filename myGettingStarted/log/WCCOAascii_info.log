@@ -1,0 +1,20 @@
+processing file F:\Siemens\Automation\WinCC_OA\myGettingStarted\dplist\GS_sim_dps.txt
+DpType (15): Create msg for type GS_SIM sent.
+Datapoint/DpId (18): Datapoint (System1:_Bacnet_2) with ID 364 already exists, new ID will be generated
+Datapoint/DpId (18): create SimControl.
+Aliases/Comments (22): created/deleted comment for SimControl.devices.responseDelay.
+Aliases/Comments (23): created/deleted comment for SimControl.model.cycleTime.
+Aliases/Comments (24): created/deleted comment for SimControl.model.noise.
+DpValue (29): Values for SimControl.devices.on sent.
+DpValue (30): Values for SimControl.devices.responseDelay sent.
+DpValue (31): Values for SimControl.model.on sent.
+DpValue (32): Values for SimControl.model.cycleTime sent.
+DpValue (33): Values for SimControl.devices.allOff sent.
+DpValue (34): Values for SimControl.fullAuto sent.
+DpValue (37): Values for SimControl.model.noise sent.
+PvssRangeCheck (39): Values for SimControl.devices.responseDelay sent.
+PvssRangeCheck (40): Values for SimControl.model.cycleTime sent.
+PvssRangeCheck (41): Values for SimControl.model.noise sent.
+Waiting for last response from eventmanager...
+Scanning of file F:\Siemens\Automation\WinCC_OA\myGettingStarted\dplist\GS_sim_dps.txt is finished (56)
+End of Program

@@ -1,0 +1,103 @@
+V 14
+2
+LANG:10001 0 
+LANG:10027 0 
+PANEL,-1 -1 500 400 N "_3DFace" 0
+E E E E E 1 -1 -1 0  106 314.9999999999997
+""0  1
+E E 3
+"CBRef" "1"
+"EClose" E
+"dpi" "96"
+0 0 0
+""
+DISPLAY_LAYER, 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0
+LAYER, 0 
+2
+LANG:10001 0 
+LANG:10027 0 
+1 0 0 "" 22
+0
+1 19 2 "1" 0
+0
+0
+LAYER, 1 
+2
+LANG:10001 0 
+LANG:10027 0 
+1 5 1 "" 0
+0
+1 20 2 "" 0
+0
+1 26 3 "" 0
+0
+0
+LAYER, 2 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 3 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 4 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 5 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 6 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 7 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+3 0 "PANEL_REF1" -1
+"layoutAlignment" "AlignNone"
+"" ""
+"objects/STD_INDICATORS/Pillar_transparent.pnl" 106 314.9999999999997 T 0 1 0 1 104 -7
+7
+"$b_IBit""TRUE"
+"$b_PvRange""TRUE"
+"$b_showAlert""TRUE"
+"$dpe_value""System1:P1.state.speed"
+"$f_Max""10000.000"
+"$f_Min""0.000"
+"$s_Col""STD_bar"
+3 1 "PANEL_REF2" -1
+"layoutAlignment" "AlignNone"
+"" ""
+"objects/STD_SWITCHES/switch_1.pnl" 190 70 T 1 1 0 1 5 -24.99999999999999
+5
+"$b_IBit""TRUE"
+"$b_Toggle""TRUE"
+"$dpe_value_Off""System1:P1.state.on"
+"$dpe_value_On""System1:P1.state.on"
+"$dpe_value_Rm""System1:P1.state.on"
+3 2 "PANEL_REF3" -1
+"layoutAlignment" "AlignNone"
+"" ""
+"objects/STD_LEDS/Led_2.pnl" 81.99999999999999 60 T 2 2.170731707317074 0 2.380952380952375 -113.829268292683 -87.35714285714246
+5
+"$b_IBit""TRUE"
+"$b_ShowAlert""FALSE"
+"$dpe_value""System1:P1.state.on"
+"$s_ColOff""STD_led_Off"
+"$s_ColOn""STD_led_On"
+3 3 "PANEL_REF4" -1
+"layoutAlignment" "AlignNone"
+"" ""
+"objects/STD_INPUTS/Value.pnl" 41.00390625 307.0000000000013 T 3 1 0 1 10.49609375 -80.00000000000102
+1
+"$dpe_value""System1:P1.state.speed"
+0

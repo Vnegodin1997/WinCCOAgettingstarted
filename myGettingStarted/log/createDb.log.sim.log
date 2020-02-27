@@ -1,0 +1,24 @@
+WCCILsim     (1), 2020.02.16 11:00:15.078, SYS,  INFO,        1, Manager Start, PROJ, myGettingStarted, V 3.16 - 3.16   platform Windows AMD64 linked at Sep 20 2019 10:16:47 (726e8f60c5d)
+WCCILsim     (1), 2020.02.16 11:00:15.169, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILsim     (1), 2020.02.16 11:00:15.186, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ na1r.services.adobe.com (127.0.0.1)
+WCCILsim     (1), 2020.02.16 11:00:15.209, PARAM,SEVERE,     71, DP does not exist, _Stat_Configs_driver_1._address:_original.._value
+WCCILsim     (1), 2020.02.16 11:00:15.212, PARAM,SEVERE,     71, DP does not exist, _Stat_Configs_driver_1._cmd_conv:_original.._value
+WCCILsim     (1), 2020.02.16 11:00:15.215, PARAM,SEVERE,     71, DP does not exist, _Stat_Configs_driver_1._msg_conv:_original.._value
+WCCILsim     (1), 2020.02.16 11:00:15.216, PARAM,SEVERE,     71, DP does not exist, _Stat_Configs_driver_1._smooth:_original.._value
+WCCILsim     (1), 2020.02.16 11:00:15.217, PARAM,SEVERE,     71, DP does not exist, _Stat_Configs_Refresh.SecsToRefresh:_original.._value
+WCCILsim     (1), 2020.02.16 11:00:15.227, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILsim     (1), 2020.02.16 11:00:15.258, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCILsim     (1), 2020.02.16 11:00:15.266, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ na1r.services.adobe.com (127.0.0.1)
+WCCILsim     (1), 2020.02.16 11:00:15.303, SYS,  SEVERE,    105, Invalid license, Driver will shutdown after the demo period of 1800 seconds
+WCCILsim     (1), 2020.02.16 11:00:15.304, SYS,  INFO,      156, Driver initialization finished.
+WCCILsim     (1), 2020.02.16 11:00:15.351, PARAM,WARNING,    54, Unexpected state, Cannot get DPID for _Driver1.AL.AClasses:_original.._value
+WCCILsim     (1), 2020.02.16 11:00:15.352, PARAM,WARNING,    54, Unexpected state, Cannot get DPID for _Driver1.AL.AckDps:_original.._value
+WCCILsim     (1), 2020.02.16 11:00:15.353, PARAM,WARNING,    54, Unexpected state, Cannot get DPID for _Driver1.AL.AckData:_original.._value
+WCCILsim     (1), 2020.02.16 11:00:15.365, PARAM,WARNING,    90, DP attribute was connected twice, DP: (Type: 0 Sys: 1 Dp: 0 El: 0 : ..)
+WCCILsim     (1), 2020.02.16 11:00:15.366, PARAM,WARNING,    54, Unexpected state, AlertDrvIntDp, dpReady, dpConnect failed to Ack DPs
+WCCILsim     (1), 2020.02.16 11:00:21.814, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILsim     (1), 2020.02.16 11:00:23.842, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILsim     (1), 2020.02.16 11:00:23.843, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILsim     (1), 2020.02.16 11:00:23.844, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILsim     (1), 2020.02.16 11:00:23.846, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILsim     (1), 2020.02.16 11:00:23.871, SYS,  INFO,        2, Manager Stop
